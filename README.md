@@ -40,7 +40,7 @@ Python on Windows and macOS; on Linux install python3-tk.
 
 ### Windows program without Python
 
-A ready-to-run Windows version is available, so you can use Ciliograph without installing Python or anything else. Download Ciliograph_windows.zip from [Google Drive](https://drive.google.com/file/d/1Vq6rq-_meHdySA6lN_ailp-2hXbTUq-j/view?usp=sharing) (or from the [Releases](https://github.com/mohammadhadi-sedaghat/ciliograph/releases) page), unzip it anywhere and double-click Ciliograph.exe.
+A ready-to-run Windows version is available on the [Releases](https://github.com/mohammadhadi-sedaghat/ciliograph/releases) page, so you can use Ciliograph without installing Python or anything else. Download Ciliograph_Windows.zip, unzip it anywhere and double-click Ciliograph.exe.
 
 ## Quick start
 
