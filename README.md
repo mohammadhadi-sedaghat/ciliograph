@@ -40,12 +40,7 @@ Python on Windows and macOS; on Linux install python3-tk.
 
 ### Windows program without Python
 
-Run build_standalone.bat once on a PC that has Python and an internet
-connection. It builds dist\Ciliograph\Ciliograph.exe and
-dist\Ciliograph_windows.zip in a private build environment (your own Python
-is not touched) and runs the self-test with the new program. Unzip it anywhere
-and double-click Ciliograph.exe. build_standalone onefile makes a single
-.exe; build_standalone noai leaves out the AI-model support.
+A ready-to-run Windows version is available on the [Releases](https://github.com/mohammadhadi-sedaghat/ciliograph/releases) page, so you can use Ciliograph without installing Python or anything else. Download Ciliograph_windows.zip, unzip it anywhere and double-click Ciliograph.exe.
 
 ## Quick start
 
