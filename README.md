@@ -118,21 +118,6 @@ python ciliograph.py <command> --help
 | check | read every frame and report any that fail |
 | selftest | check the model, the file format and the fitters (no data needed) |
 
-## Checking the results
-
-synth renders a carpet of cilia with a known beat, and validate runs Find
-base, Find cycle, Find length and Auto fit on it and scores each against the
-truth. Use it to judge an enhancement setting or an AI model before trusting
-it on your own recordings:
-
-```bash
-python ciliograph.py synth --out synthetic/lawn --ppum 12 --cbf 15 --fps 300 --frames 120 \
-    --cilia 40 --spacing 0.5 --wavelength 100000 --blur 1.8 --noise 0.03 \
-    --jitter 0.03 --scatter 1 --bright 0.5 --body 0.35
-python ciliograph.py validate --images synthetic/lawn --assume-period
-python ciliograph.py validate --images synthetic/lawn --assume-period --model path/to/model.onnx
-```
-
 ## AI models (optional)
 
 Any image-to-image network in ONNX format can be loaded on the enhance tab
@@ -191,6 +176,4 @@ python ciliograph.py info shows what is in use.
 | File | Purpose |
 |---|---|
 | ciliograph.py | the program |
-| train_cilia_net.py | optional: train a network that draws the cilia |
-| build_standalone.bat | build the Windows program |
-| aa.bat, aa-shapes.bat (Windows), aa, aa-shapes (Linux/macOS) | shortcuts for the window and for shapes |
+| Ciliograph_windows.zip | the Windows program, no Python needed (on the [Releases](https://github.com/mohammadhadi-sedaghat/ciliograph/releases) page) |
