@@ -139,6 +139,8 @@ Any image-to-image network in ONNX format can be loaded on the enhance tab
 (needs onnxruntime). Every later step then reads the network's output, so
 judge a network with validate as above, not by how the frames look.
 
+A ready-trained model is available: download it from [Google Drive](https://drive.google.com/file/d/1vfXL47FdolYR6YA7SDvh9SrlmI4gEHyj/view?usp=sharing), put it in the models folder next to Ciliograph, and load it as the AI model on the enhance tab.
+
 On Windows, if importing onnxruntime makes Python quit silently (common with an
 Anaconda installed for all users), make an environment of your own and start
 Ciliograph from it:
